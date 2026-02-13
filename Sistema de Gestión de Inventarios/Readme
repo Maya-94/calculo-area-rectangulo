@@ -1,0 +1,93 @@
+# 📦 Sistema de Gestión de Inventarios
+
+Proyecto desarrollado en Python aplicando Programación Orientada a Objetos (POO).
+
+## 🎯 Objetivo
+
+Desarrollar un sistema simple de gestión de inventarios para una tienda, que permita:
+
+- Añadir productos
+- Actualizar productos
+- Eliminar productos
+- Buscar productos
+- Mostrar inventario
+
+Todo esto utilizando estructuras de datos personalizadas y principios de POO.
+
+---
+
+## 🧱 Estructura del Proyecto
+
+El sistema está compuesto por tres archivos principales:
+
+
+### 🔹 producto.py
+Define la clase **Producto**, que representa cada producto del inventario.
+
+Atributos:
+
+- ID (único)
+- Nombre
+- Cantidad
+- Precio
+
+Funcionalidades:
+
+- Constructor
+- Getters y Setters
+- Representación en texto (`__str__`)
+
+---
+
+### 🔹 inventario.py
+Define la clase **Inventario**, que administra la colección de productos.
+
+Funcionalidades:
+
+- Añadir productos (validando ID único)
+- Eliminar productos
+- Actualizar cantidad o precio
+- Buscar productos por nombre
+- Mostrar inventario completo
+
+---
+
+### 🔹 main.py
+Contiene la interfaz interactiva en consola.
+
+Permite al usuario:
+
+- Seleccionar opciones del menú
+- Ingresar datos
+- Visualizar resultados
+
+---
+
+## ⚙️ Funcionalidades del Sistema
+
+✅ Añadir productos  
+✅ Validación de ID único  
+✅ Eliminación de productos  
+✅ Actualización de datos  
+✅ Búsqueda flexible por nombre  
+✅ Visualización del inventario  
+
+---
+
+## 🧩 Conceptos de Programación Orientada a Objetos Aplicados
+
+Este proyecto implementa los siguientes principios:
+
+- **Encapsulamiento** → Uso de getters y setters
+- **Abstracción** → Modelado de la entidad Producto
+- **Responsabilidad Única** → Cada clase tiene un rol definido
+- **Composición** → Inventario contiene múltiples Productos
+
+---
+
+## ▶️ Ejecución del Programa
+
+Desde la terminal o consola:
+
+```bash
+python main.py
