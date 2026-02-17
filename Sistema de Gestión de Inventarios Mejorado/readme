@@ -1,0 +1,156 @@
+#  Sistema de Gestión de Inventarios Mejorado
+
+## Descripción del Proyecto
+
+El objetivo principal es demostrar el uso de:
+
+* Clases y objetos
+* Persistencia de datos en archivos
+* Manejo de excepciones
+* Buenas prácticas de programación
+
+
+
+##  Objetivo
+
+Mejorar un sistema de inventarios previo para que:
+
+✅ Almacene información en archivos
+✅ Recupere automáticamente los datos al iniciar
+✅ Maneje errores durante lectura/escritura
+✅ Evite fallos por archivos inexistentes o corruptos
+
+
+
+##  Estructura del Sistema
+
+El sistema está compuesto por dos clases principales:
+
+###  Clase `Producto`
+
+Representa un producto dentro del inventario.
+
+**Atributos:**
+
+* `id_producto` → Identificador único
+* `nombre` → Nombre del producto
+* `cantidad` → Stock disponible
+* `precio` → Precio unitario
+
+**Responsabilidades:**
+
+* Convertir el objeto a formato texto
+* Reconstruir el objeto desde el archivo
+
+
+
+###  Clase `Inventario`
+
+Administra la colección de productos.
+
+**Responsabilidades:**
+
+* Cargar productos desde archivo
+* Guardar productos en archivo
+* Agregar productos
+* Eliminar productos
+* Actualizar productos
+* Mostrar inventario
+
+
+
+##  Persistencia de Datos
+
+La información del inventario se guarda en el archivo:
+
+```
+inventario.txt
+```
+
+Cada línea del archivo representa un producto en formato CSV:
+
+```
+id,nombre,cantidad,precio
+```
+
+Ejemplo:
+
+```
+A01,Laptop,5,899.99
+```
+
+Esto permite que los datos **permanezcan guardados** incluso después de cerrar el programa.
+
+
+
+## Manejo de Excepciones
+
+El sistema incluye control de errores para evitar interrupciones inesperadas:
+
+* `FileNotFoundError` → Archivo no existe
+* `PermissionError` → Falta de permisos
+* `ValueError` → Datos inválidos
+* `Exception` → Errores imprevistos
+
+Esto garantiza un comportamiento **seguro y robusto**.
+
+
+
+##  Funcionalidades
+
+El sistema permite realizar las siguientes operaciones desde consola:
+
+✅ Agregar productos
+✅ Eliminar productos
+✅ Actualizar cantidad o precio
+✅ Mostrar inventario
+✅ Guardado automático en archivo
+
+
+
+##  Ejecución del Programa
+
+Para ejecutar el sistema:
+
+```bash
+python inventario_mejorado.py
+```
+
+Asegúrate de tener Python instalado (versión 3.x recomendada).
+
+
+
+##  Pruebas y Robustez
+
+El programa ha sido diseñado para manejar escenarios como:
+
+✔ Archivo inexistente
+✔ Falta de permisos de lectura/escritura
+✔ Líneas corruptas en el archivo
+✔ Errores de entrada del usuario
+
+
+
+## 🛠️ Tecnologías Utilizadas
+
+* Python 3
+* Programación Orientada a Objetos (POO)
+* Archivos de texto (CSV simple)
+* Manejo de excepciones
+
+
+
+##  Conceptos Aplicados
+
+Este proyecto refuerza conocimientos clave de:
+
+* Encapsulación
+* Abstracción
+* Persistencia de datos
+* Manejo de errores
+* Diseño de software simple y mantenible
+
+
+## Conclusión
+
+El sistema demuestra cómo combinar **POO + Archivos + Excepciones** para construir aplicaciones más reales, persistentes y resistentes a errores, acercándose a prácticas utilizadas en software profesional.
