@@ -1,0 +1,77 @@
+# Sistema Avanzado de Gestión de Inventario
+
+Aplicación desarrollada en **Python** utilizando **Programación Orientada a Objetos (POO)**.  
+El sistema permite administrar productos de una tienda mediante un menú interactivo en consola, utilizando colecciones y almacenamiento en archivos.
+
+---
+
+##  Descripción
+
+ Implementa un sistema de inventario que permite:
+
+- Registrar productos
+- Eliminar productos
+- Actualizar información
+- Buscar productos
+- Mostrar inventario
+- Guardar y cargar datos desde archivos
+
+El objetivo principal es aplicar correctamente los conceptos de **POO**, **colecciones** y **persistencia de datos**.
+
+---
+
+##  Funcionalidades
+
+Añadir nuevos productos  
+Eliminar productos por ID  
+Actualizar cantidad o precio  
+Buscar productos por nombre  
+Mostrar todos los productos  
+Guardar inventario en archivo JSON  
+Cargar inventario automáticamente  
+
+---
+
+El sistema está compuesto por:
+
+### Clase - Producto
+Representa un producto del inventario.
+
+Atributos:
+
+- `id`
+- `nombre`
+- `cantidad`
+- `precio`
+
+Métodos:
+
+- Actualizar cantidad
+- Actualizar precio
+- Mostrar información
+
+---
+
+### Clase `Inventario`
+Gestiona los productos utilizando un **diccionario**.
+
+Operaciones:
+
+- Añadir producto
+- Eliminar producto
+- Actualizar producto
+- Buscar por nombre
+- Mostrar todos
+- Guardar en archivo
+- Cargar desde archivo
+
+---
+
+### Menú Interactivo
+Interfaz en consola que permite al usuario interactuar con el sistema.
+
+---
+
+##  Almacenamiento de Datos
+
+El inventario se guarda en un archivo
