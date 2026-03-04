@@ -1,0 +1,114 @@
+# Sistema de Gestión de Biblioteca Digital
+
+El sistema permite administrar libros, registrar usuarios, gestionar préstamos y devoluciones, y realizar búsquedas dentro del catálogo de la biblioteca.
+
+El objetivo del proyecto es aplicar conceptos fundamentales de POO como **clases, objetos, encapsulamiento y uso de estructuras de datos**.
+
+
+# Objetivos del Sistema
+
+* Administrar libros disponibles en la biblioteca.
+* Registrar y eliminar usuarios.
+* Gestionar el préstamo y devolución de libros.
+* Buscar libros por título, autor o categoría.
+* Mostrar los libros actualmente prestados a un usuario.
+
+
+
+#  Diseño del Sistema
+
+El sistema está compuesto por **tres clases principales**:
+
+##  Clase Libro
+
+Representa un libro dentro de la biblioteca.
+
+**Atributos:**
+
+* titulo
+* autor
+* categoria
+* isbn
+
+Se utiliza una **tupla** para almacenar el título y el autor ya que estos datos no cambian una vez creado el libro.
+
+
+##  Clase Usuario
+
+Representa un usuario registrado en la biblioteca.
+
+**Atributos:**
+
+* nombre
+* id_usuario (único)
+* libros_prestados
+
+Se utiliza una **lista** para almacenar los libros prestados al usuario.
+
+
+## Clase Biblioteca
+
+Gestiona todo el sistema de la biblioteca.
+
+**Estructuras de datos utilizadas:**
+
+* **Diccionario** para almacenar libros usando el ISBN como clave.
+* **Diccionario** para almacenar usuarios usando su ID.
+* **Set (conjunto)** para garantizar que los IDs de usuarios sean únicos.
+
+
+# Funcionalidades Implementadas
+
+El sistema permite realizar las siguientes operaciones:
+
+* Añadir libros a la biblioteca
+* Eliminar libros
+* Registrar usuarios
+* Eliminar usuarios
+* Prestar libros
+* Devolver libros
+* Buscar libros por título, autor o categoría
+* Listar libros prestados a un usuario
+
+
+#  Tecnologías Utilizadas
+
+* **Python 3**
+* Programación Orientada a Objetos (POO)
+
+---
+
+#  Cómo Ejecutar el Programa
+
+1. Descargar el archivo del proyecto.
+2. Abrir una terminal o consola.
+3. Ejecutar el archivo Python:
+
+```bash
+python biblioteca.py
+```
+
+El programa ejecutará una prueba del sistema creando libros, registrando usuarios y realizando operaciones de préstamo.
+
+
+
+#  Ejemplo de Funcionamiento
+
+El programa realiza las siguientes acciones de prueba:
+
+* Crear libros
+* Registrar un usuario
+* Prestar un libro
+* Mostrar libros prestados
+* Devolver un libro
+* Buscar un libro en el catálogo
+
+
+#  Conceptos de Programación Aplicados
+
+* Clases y objetos
+* Encapsulamiento
+* Uso de estructuras de datos (listas, tuplas, diccionarios y conjuntos)
+* Gestión de información mediante métodos
+
+
