@@ -1,0 +1,136 @@
+#  Aplicación GUI Básica con Python
+
+## Descripción del Proyecto
+
+Este proyecto consiste en el desarrollo de una **Aplicación de Interfaz Gráfica de Usuario (GUI)** utilizando **Python** y la librería **Tkinter**.
+
+La aplicación permite a los usuarios **ingresar datos, visualizarlos en una tabla y gestionarlos mediante diferentes acciones**, proporcionando una interacción visual sencilla e intuitiva.
+
+
+#  Objetivo
+
+Desarrollar una aplicación GUI que permita a los usuarios interactuar con datos de manera visual utilizando componentes básicos de interfaz gráfica.
+
+
+#  Funcionalidades
+
+La aplicación implementa las siguientes funciones:
+
+✔ Ingreso de datos mediante un campo de texto
+✔ Agregar datos a una tabla tipo Excel
+✔ Visualizar los datos en una tabla organizada
+✔ Eliminar un dato seleccionado
+✔ Limpiar todos los datos de la tabla
+✔ Interfaz gráfica intuitiva
+
+
+# Componentes de la Interfaz
+
+La aplicación incluye los siguientes elementos GUI:
+
+* **Label:** Texto informativo para el usuario
+* **Entry:** Campo de texto para ingresar datos
+* **Botones:**
+
+  * Agregar
+  * Eliminar
+  * Limpiar
+* **Tabla (Treeview):** Visualización de datos tipo Excel
+
+
+#  Programación Orientada a Objetos
+
+El sistema fue diseñado utilizando el paradigma **POO**, dividiendo la aplicación en dos clases principales:
+
+### Clase `InterfazGUI`
+
+Encargada de:
+
+* Crear los componentes de la interfaz
+* Manejar eventos de los botones
+* Gestionar los datos mostrados en la tabla
+
+### Clase `Aplicacion`
+
+Responsable de:
+
+* Inicializar la ventana principal
+* Ejecutar la aplicación
+
+Esta estructura permite que el código sea **más organizado, reutilizable y fácil de mantener**.
+
+
+#  Tecnologías Utilizadas
+
+* **Python 3**
+* **Tkinter**
+* **ttk (Treeview)**
+* **PyCharm (IDE recomendado)**
+
+---
+
+# Cómo ejecutar el proyecto
+
+### 1️⃣ Clonar el repositorio
+
+```bash
+git clone https://github.com/TU-USUARIO/TU-REPOSITORIO.git
+```
+
+### 2️⃣ Entrar en la carpeta del proyecto
+
+```bash
+cd TU-REPOSITORIO
+```
+
+### 3️⃣ Ejecutar el programa
+
+```bash
+python app_gui_profesional.py
+```
+
+
+# Pruebas realizadas
+
+### Prueba 1
+
+Ingresar un dato y presionar **Agregar**
+
+Resultado:
+El dato aparece correctamente en la tabla.
+
+### Prueba 2
+
+Seleccionar un dato y presionar **Eliminar**
+
+Resultado:
+El dato seleccionado se elimina de la tabla.
+
+### Prueba 3
+
+Presionar **Limpiar**
+
+Resultado:
+Todos los datos se eliminan de la tabla.
+
+
+#  Estructura del Proyecto
+
+```
+Proyecto_GUI
+│
+├── app_gui_profesional.py
+└── README.md
+```
+
+
+#  Mejoras implementadas
+
+Para mejorar la aplicación se agregaron funcionalidades adicionales:
+
+* Tabla de datos tipo Excel
+* Eliminación de elementos seleccionados
+* Interfaz más organizada mediante Frames
+* Uso de Programación Orientada a Objetos
+
+
