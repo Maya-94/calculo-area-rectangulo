@@ -1,0 +1,97 @@
+# Agenda Personal en Python (Tkinter)
+
+Consiste en el desarrollo de una aplicación de escritorio tipo **Agenda Personal**, creada con **Python** utilizando la librería **Tkinter**.
+
+La aplicación permite gestionar eventos o tareas mediante una interfaz gráfica intuitiva, cumpliendo con los principios de la **Programación Orientada a Objetos (POO)**.
+
+##  Objetivo
+
+Desarrollar una aplicación GUI que permita al usuario:
+
+* Agregar eventos
+* Visualizar eventos en una tabla
+* Eliminar eventos seleccionados
+
+
+##  Tecnologías utilizadas
+
+* Python 3
+* Tkinter (interfaz gráfica)
+* ttk (Treeview para tabla tipo Excel)
+
+
+##  Estructura del proyecto
+
+El proyecto está organizado bajo el paradigma de Programación Orientada a Objetos:
+
+* **Evento** → Representa un evento con fecha, hora y descripción
+* **Agenda** → Gestiona la lista de eventos
+* **AgendaApp** → Controla la interfaz gráfica y la interacción del usuario
+
+
+##  Funcionalidades principales
+
+✔ Agregar eventos con:
+
+* Fecha
+* Hora
+* Descripción
+
+✔ Visualización en tabla (Treeview)
+
+✔ Eliminación de eventos seleccionados
+
+✔ Validación de campos vacíos
+
+✔ Confirmación antes de eliminar
+
+✔ Interfaz organizada con Frames
+
+
+##  Interfaz de usuario
+
+La interfaz está dividida en tres secciones:
+
+1. **Lista de eventos**
+2. **Formulario de entrada**
+3. **Botones de acción**
+
+Esto permite una mejor organización y experiencia de usuario.
+
+
+##  Cómo ejecutar el proyecto
+
+1. Asegúrate de tener Python instalado
+2. Descarga o clona el repositorio
+3. Ejecuta el archivo principal:
+
+```bash
+python agenda_personal.py
+```
+
+
+##  Pruebas realizadas
+
+Se verificaron los siguientes casos:
+
+* ✔ Agregar eventos correctamente
+* ✔ Validación de campos vacíos
+* ✔ Eliminación de eventos
+* ✔ Confirmación antes de eliminar
+* ✔ Actualización de la tabla en tiempo real
+
+
+##  Conceptos aplicados
+
+* Programación Orientada a Objetos (POO)
+* Manejo de eventos en interfaces gráficas
+* Uso de contenedores (Frames)
+* Separación de lógica y presentación
+* Uso de widgets de Tkinter
+
+
+
+
+
+
+
