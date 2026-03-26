@@ -1,0 +1,59 @@
+# 📝 Task Manager PRO MAX
+
+Aplicación de escritorio desarrollada en **Python** utilizando **Tkinter** y **Programación Orientada a Objetos (POO)**.
+Permite gestionar tareas de forma eficiente mediante una interfaz moderna tipo aplicación real.
+
+
+## Características
+
+* ➕ Añadir tareas
+* ✔ Marcar tareas como completadas
+* 🗑 Eliminar tareas
+* 🖱 Doble clic para cambiar estado
+* 📊 Vista en tabla (tipo Excel con Treeview)
+* 🌙 Interfaz moderna en modo oscuro (Dark UI)
+* 💾 Persistencia de datos con JSON (guardado automático)
+
+
+##  Tecnologías utilizadas
+
+* Python 3
+* Tkinter (GUI)
+* ttk (interfaz moderna)
+* JSON (persistencia de datos)
+* Programación Orientada a Objetos (POO)
+
+
+## 🖥️ Funcionalidad
+
+* Escribe una tarea en el campo de texto
+* Presiona **Enter** o el botón ➕ para añadirla
+* Selecciona una tarea y:
+
+  * Presiona ✔ para completarla
+  * Presiona 🗑 para eliminarla
+* También puedes hacer **doble clic** para marcarla como completada
+
+
+## 💾 Persistencia de datos
+
+Las tareas se guardan automáticamente en el archivo:
+
+
+listas_tareas
+
+
+Esto permite que la información se mantenga incluso después de cerrar la aplicación.
+
+
+
+##  Conceptos aplicados
+
+* Encapsulación mediante clases
+* Manejo de eventos (botones y teclado)
+* Separación de responsabilidades
+* Manipulación de estructuras de datos (listas y diccionarios)
+* Uso de interfaces gráficas
+
+
+
