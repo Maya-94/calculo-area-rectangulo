@@ -1,0 +1,97 @@
+GestorDeTareasGUI
+
+## Objetivo
+
+Desarrollar una aplicación GUI que permita:
+
+* Agregar tareas
+* Marcar tareas como completadas
+* Eliminar tareas
+* Utilizar atajos de teclado para mejorar la usabilidad
+
+## Características
+
+✅ Interfaz gráfica amigable
+✅ Programación Orientada a Objetos (POO)
+✅ Gestión dinámica de tareas
+✅ Atajos de teclado
+✅ Feedback visual de tareas completadas
+✅ Validaciones de usuario
+
+
+##  Atajos de Teclado
+
+| Tecla      | Función                |
+| ---------- | ---------------------- |
+| Enter      | Agregar tarea          |
+| C          | Marcar como completada |
+| Delete / D | Eliminar tarea         |
+| Esc        | Cerrar la aplicación   |
+
+
+##  Tecnologías utilizadas
+
+* Python
+* Tkinter (interfaz gráfica)
+
+---
+
+##  Instalación y ejecución
+
+1. Clona este repositorio o descarga el archivo:
+
+```bash
+git clone https://github.com/tu-usuario/taskmanagerpro.git
+```
+
+2. Accede a la carpeta del proyecto:
+
+```bash
+cd taskmanagerpro
+```
+
+3. Ejecuta el programa:
+
+```bash
+python task_manager.py
+```
+
+##  Estructura del Proyecto
+
+* `task_manager.py` → Archivo principal con toda la lógica de la aplicación
+* Uso de una clase principal (`AppTareas`) que gestiona:
+
+  * Interfaz
+  * Eventos
+  * Lógica de tareas
+
+##  Uso
+
+1. Escribe una tarea en el campo de texto
+2. Presiona **Enter** o el botón "Agregar"
+3. Selecciona una tarea y:
+
+   * Presiona **C** para completarla
+   * Presiona **Delete o D** para eliminarla
+4. Presiona **Esc** para salir
+
+
+##  Funcionalidad clave
+
+* Las tareas completadas se marcan con ✔
+* Se requiere seleccionar una tarea antes de completarla o eliminarla
+* Se muestra un mensaje si el usuario intenta realizar acciones inválidas
+
+
+##  Explicación técnica
+
+El proyecto está desarrollado bajo el paradigma de **Programación Orientada a Objetos**, utilizando una clase principal que encapsula la lógica y la interfaz gráfica.
+
+Se implementa el manejo de eventos tanto mediante botones como con atajos de teclado, mejorando la experiencia del usuario.
+
+
+
+
+
+
+
